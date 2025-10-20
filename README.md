@@ -1,4 +1,4 @@
-# CLIPArTT – Adaptation of CLIP to New Domains at Test Time (WACV 2025 Reimplementation + Novel Application Medical Domain Extension)
+# CLIPArTT – Adaptation of CLIP to New Domains at Test Time (WACV 2025 Reimplementation + Novel Application- Medical Domain Extension)
 
 This repository implements and extends the **CLIPArTT** method – *“Adaptation of CLIP to New Domains at Test Time”* (WACV 2025) – which enables **test-time domain adaptation (TTA)** for CLIP models under distribution shifts, such as noisy or corrupted images.  
 
