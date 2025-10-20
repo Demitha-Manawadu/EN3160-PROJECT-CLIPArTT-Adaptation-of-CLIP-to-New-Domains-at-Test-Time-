@@ -1,0 +1,5 @@
+We used MedMINST -PathMNIST data set
+
+
+A medical image dataset derived from real colorectal cancer slides.
+ Each 28×28 patch shows a distinct tissue type, such as adipose, stroma, or cancer epithelium.
