@@ -41,11 +41,11 @@ CLIPArTT leverages self-consistency across test samples:
 We evaluate CLIPArTT on standard corrupted benchmarks.  
 Each dataset contains 15 corruption types × 5 severity levels.
 
-| Dataset | Metric | Zero-shot CLIP | CLIPArTT (ours) | Δ Improvement |
+| Dataset | Zero-shot CLIP | CLIPArTT (ours) | Δ Improvement |
 |----------|--------|----------------|------------------|---------------|
-| CIFAR-10 (clean) | Top-1 Acc (%) | 88.8 | **88.9** | +0.1 |
-| CIFAR-10-C (Impulse Noise, s=5) | Top-1 Acc (%) | 51.71 | **64.99** | +11.88|
-| CIFAR-100-C (avg over 15 corr.) | Top-1 Acc (%) | 29.4 | **41.5** | +12.1 |
+| CIFAR-10 (clean) | 88.8 | **88.9** | +0.1 |
+| CIFAR-10-C (Impulse Noise, s=5) |  51.71 | **64.99** | +11.88|
+| CIFAR-100-C (Impulse Noise, s=5) |  23.87 | **36.39** | +12.52 |
 
 > ⚙️ Results reproduced using `ViT-B/32` and batch size = 128.  
 > Accuracy improvements are consistent across most corruption types (Gaussian, Defocus, Glass, etc.).
@@ -117,6 +117,7 @@ This allows the model to adapt efficiently to unseen, noisy data **without retra
 | **CLIPArTT (TTA)** | 19.4 |
 
 The improvement shows that even though CLIP was never trained on medical data, adaptive tuning during inference helps the model better align with the corrupted medical domain.
+
 
 ---
 
