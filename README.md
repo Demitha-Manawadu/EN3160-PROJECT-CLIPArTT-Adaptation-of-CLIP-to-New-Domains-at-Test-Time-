@@ -44,7 +44,7 @@ Each dataset contains 15 corruption types × 5 severity levels.
 | Dataset | Metric | Zero-shot CLIP | CLIPArTT (ours) | Δ Improvement |
 |----------|--------|----------------|------------------|---------------|
 | CIFAR-10 (clean) | Top-1 Acc (%) | 88.8 | **88.9** | +0.1 |
-| CIFAR-10-C (Gaussian Noise, s=5) | Top-1 Acc (%) | 35.6 | **36.5** | +0.9 |
+| CIFAR-10-C (Impulse Noise, s=5) | Top-1 Acc (%) | 51.71 | **64.99** | +11.88|
 | CIFAR-100-C (avg over 15 corr.) | Top-1 Acc (%) | 29.4 | **41.5** | +12.1 |
 
 > ⚙️ Results reproduced using `ViT-B/32` and batch size = 128.  
