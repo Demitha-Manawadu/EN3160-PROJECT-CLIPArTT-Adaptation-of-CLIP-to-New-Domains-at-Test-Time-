@@ -118,6 +118,7 @@ This allows the model to adapt efficiently to unseen, noisy data **without retra
 
 The improvement shows that even though CLIP was never trained on medical data, adaptive tuning during inference helps the model better align with the corrupted medical domain.
 
+<img width="499" height="270" alt="image" src="https://github.com/user-attachments/assets/c6221a53-34db-4bab-8a90-3b5c73434dcf" />
 
 ---
 
